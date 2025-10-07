@@ -41,9 +41,5 @@ def testable_anonymizer(inText: str, begin: int, stop: int):
 
 
 if __name__ == "__main__": 
-    #sample_run_anonymizer();
-    text = "My name is Bond."
-    start = 11
-    end = 15
-    result = testable_anonymizer(text, start, end)
-    print(result)
+    sample_run_anonymizer();
+    
